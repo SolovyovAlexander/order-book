@@ -1,0 +1,25 @@
+# Build directories (out-of-source)
+/build/
+/build-*/
+/dist/
+
+# Tooling / editor caches
+/.cache/
+compile_commands.json
+
+# Confidential assignment - do not commit
+/Vatic_Order_match_assignment.docx
+
+# Large generated datasets (keep the small committed samples)
+/datasets/*.in
+!/datasets/*.sample.in
+
+# Stray binaries / objects
+*.o
+a.out
+
+# zip
+*.zip
+
+# claude
+CLAUDE.md
