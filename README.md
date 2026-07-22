@@ -1,5 +1,3 @@
-You can find binary executable compatible with linux here `order-book/dist/order_book`
-
 # Order Book / Matching Engine
 
 A limit order book with **price-time priority** matching. It reads a stream of
